@@ -1,0 +1,34 @@
+_id: req_e6d1bdfd26124de8b2c366eafeb32b7c
+type: Request
+parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
+modified: 1673987163677
+created: 1673987107012
+url: http://localhost/api/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d3ab4d4e4aaa4aada0c5cf1111c7f10d
+      name: email
+      value: test
+      description: ""
+    - id: pair_2c1b6a761564453599c639e4db0659df
+      name: password
+      value: password
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_c1b3af22390b48f6ad5a7bce799e166f
+authentication: {}
+metaSortKey: -1673987107012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
