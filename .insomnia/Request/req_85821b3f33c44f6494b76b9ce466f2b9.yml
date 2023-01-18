@@ -1,23 +1,13 @@
-_id: req_e6d1bdfd26124de8b2c366eafeb32b7c
+_id: req_85821b3f33c44f6494b76b9ce466f2b9
 type: Request
-parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
-modified: 1673999018925
-created: 1673987107012
-url: http://localhost/login
-name: Login
+parentId: wrk_be85a9ab876a4039a9fc1047936140df
+modified: 1673997883101
+created: 1673997875193
+url: http://localhost/api/dashboard
+name: Dashboard
 description: ""
-method: POST
-body:
-  mimeType: multipart/form-data
-  params:
-    - id: pair_d3ab4d4e4aaa4aada0c5cf1111c7f10d
-      name: email
-      value: campdocs@example.com
-      description: ""
-    - id: pair_2c1b6a761564453599c639e4db0659df
-      name: password
-      value: password
-      description: ""
+method: GET
+body: {}
 parameters: []
 headers:
   - name: Accept
@@ -33,12 +23,8 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
-  - id: pair_974908e030f946b592ce84bba127da7f
-    name: Content-Type
-    value: multipart/form-data
-    description: ""
 authentication: {}
-metaSortKey: -1673987107012
+metaSortKey: -1673987101453.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

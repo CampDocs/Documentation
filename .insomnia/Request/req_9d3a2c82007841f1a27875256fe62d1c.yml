@@ -1,0 +1,25 @@
+_id: req_9d3a2c82007841f1a27875256fe62d1c
+type: Request
+parentId: wrk_be85a9ab876a4039a9fc1047936140df
+modified: 1673996886419
+created: 1673996842686
+url: http://localhost/sanctum/csrf-cookie
+name: Sanctum
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_71860aaf073d491ebfad2201567d136c
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1673987101422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

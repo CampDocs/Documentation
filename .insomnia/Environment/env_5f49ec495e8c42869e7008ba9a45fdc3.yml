@@ -1,0 +1,14 @@
+_id: env_5f49ec495e8c42869e7008ba9a45fdc3
+type: Environment
+parentId: env_b53da08788708ab86a65aa577fbb2c27976b6c3c
+modified: 1673996607966
+created: 1673996599831
+name: Settings
+data:
+  front_url: http://localhost:3000
+dataPropertyOrder:
+  "&":
+    - front_url
+color: null
+isPrivate: false
+metaSortKey: 1673996599831
