@@ -1,9 +1,9 @@
 _id: req_e6d1bdfd26124de8b2c366eafeb32b7c
 type: Request
 parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
-modified: 1673999018925
+modified: 1675966282644
 created: 1673987107012
-url: http://localhost/login
+url: http://localhost/api/auth/login
 name: Login
 description: ""
 method: POST

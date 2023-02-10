@@ -1,18 +1,18 @@
-_id: req_33acbfdd2e4b42c3ada89855b692ba98
+_id: req_675fdc1340dd4ed68c07d9b715fd3023
 type: Request
 parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
-modified: 1675966291067
-created: 1673998477201
-url: http://localhost/api/auth/forgot-password
-name: Forgot Password
+modified: 1675974690379
+created: 1675974596821
+url: http://localhost/api/auth/confirm-password
+name: Confirm Password
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_d3648b69f7214b4b97e627bb7a8021f1
-      name: email
-      value: campdocs@example.com
+    - id: pair_2c1b6a761564453599c639e4db0659df
+      name: password
+      value: password
       description: ""
 parameters: []
 headers:
@@ -29,10 +29,12 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
-  - name: Content-Type
+  - id: pair_974908e030f946b592ce84bba127da7f
+    name: Content-Type
     value: multipart/form-data
+    description: ""
 authentication: {}
-metaSortKey: -1673987104204.5
+metaSortKey: -1673987104117
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

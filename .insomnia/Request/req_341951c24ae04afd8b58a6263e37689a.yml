@@ -1,19 +1,24 @@
-_id: req_33acbfdd2e4b42c3ada89855b692ba98
+_id: req_341951c24ae04afd8b58a6263e37689a
 type: Request
-parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
-modified: 1675966291067
-created: 1673998477201
-url: http://localhost/api/auth/forgot-password
-name: Forgot Password
+parentId: fld_37a2c22409724a1db2464021d7b1a838
+modified: 1675990194975
+created: 1675988314705
+url: http://localhost/api/two-factor/challenge
+name: Challenge
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_d3648b69f7214b4b97e627bb7a8021f1
-      name: email
-      value: campdocs@example.com
+    - id: pair_2c1b6a761564453599c639e4db0659df
+      name: code
+      value: "169890"
       description: ""
+    - id: pair_21147539b1b6414fa2a4df9a0bdefe04
+      name: recovery_code
+      value: 1111111111-1111111111
+      description: ""
+      disabled: true
 parameters: []
 headers:
   - name: Accept
@@ -29,10 +34,12 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
-  - name: Content-Type
+  - id: pair_974908e030f946b592ce84bba127da7f
+    name: Content-Type
     value: multipart/form-data
+    description: ""
 authentication: {}
-metaSortKey: -1673987104204.5
+metaSortKey: -1673987104858.4307
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

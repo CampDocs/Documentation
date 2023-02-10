@@ -1,12 +1,12 @@
 _id: req_7c26b28a605a41b7ad2441c9b923dbe3
 type: Request
 parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
-modified: 1673997755127
+modified: 1675992263898
 created: 1673996966465
-url: http://localhost/logout
+url: http://localhost/api/auth/logout
 name: Logout
 description: ""
-method: POST
+method: DELETE
 body: {}
 parameters: []
 headers:

@@ -1,19 +1,13 @@
-_id: req_33acbfdd2e4b42c3ada89855b692ba98
+_id: req_1374365fa05f4e29862521c4ffd1a576
 type: Request
-parentId: fld_6ec928c2435c40999c10f4dd8276f8a0
-modified: 1675966291067
-created: 1673998477201
-url: http://localhost/api/auth/forgot-password
-name: Forgot Password
+parentId: fld_37a2c22409724a1db2464021d7b1a838
+modified: 1675987052103
+created: 1675987044216
+url: http://localhost/api/two-factor/qr-code
+name: QR Code
 description: ""
-method: POST
-body:
-  mimeType: multipart/form-data
-  params:
-    - id: pair_d3648b69f7214b4b97e627bb7a8021f1
-      name: email
-      value: campdocs@example.com
-      description: ""
+method: GET
+body: {}
 parameters: []
 headers:
   - name: Accept
@@ -29,10 +23,8 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
-  - name: Content-Type
-    value: multipart/form-data
 authentication: {}
-metaSortKey: -1673987104204.5
+metaSortKey: -1673987104741.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
